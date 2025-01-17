@@ -7,13 +7,13 @@ const sections = [
   // Add more images if needed
 ];
 
-const Banner = () => {
+const Banner = ({ height }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
     const imageRotationInterval = setInterval(() => {
       setCurrentImageIndex((prevIndex) =>
-        prevIndex === sections.length - 1 ? 0 : prevIndex + 1
+        prevIndex === sections.length - 1 ? 0 : prevIndex + 1,
       );
     }, 15000);
 
@@ -21,7 +21,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className=" w-full h-[25vh] overflow-hidden absolute top-10 left-0">
+    <div className="w-full overflow-hidden" style={{ height: `${height}vh` }}>
       <img
         src={sections[currentImageIndex].image}
         alt={`Banner ${currentImageIndex + 1}`}

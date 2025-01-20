@@ -11,12 +11,14 @@ const Banner = () => {
         <div className="bg-orange-500">Support us</div>
       </div>
       <div className="absolute w-32 lg:w-48">
-        <img
-          src="/content/logo.png"
-          alt="Show of Force gaming community logo"
-          className="hero-logo"
-          loading="lazy"
-        />
+        <a href="/">
+          <img
+            src="/content/logo.png"
+            alt="Show of Force gaming community logo"
+            className="hero-logo"
+            loading="lazy"
+          />
+        </a>
       </div>
     </header>
   );

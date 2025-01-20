@@ -7,7 +7,7 @@ import {
 
 const Banner = () => {
   return (
-    <footer className="min-h-8 sticky bottom-0 grid grid-flow-col gap-1 z-10 bg-[#282c34]">
+    <footer className="min-h-16 pt-4 sticky bottom-0 grid grid-flow-col gap-1 z-10 text-black bg-white">
       <a
         href="https://discord.gg/showofforce"
         target="_blank"

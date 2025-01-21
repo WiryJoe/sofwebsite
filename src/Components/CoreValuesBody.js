@@ -2,7 +2,7 @@ import CoreValuesCard from "./CoreValuesCard";
 
 const CoreValuesBody = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-around">
+    <div className="grid gap-12">
       <CoreValuesCard
         Title={"Title 1"}
         Text={

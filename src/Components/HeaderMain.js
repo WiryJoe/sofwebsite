@@ -16,7 +16,7 @@ const Banner = () => {
           <img
             src="/content/storm-cloud-png-55-2048997215.png"
             alt="Show of Force gaming community logo"
-            className="hero-logo absolute top-0 -left-16 w-24 lg:w-96 hover:scale-110 transition-all duration-500"
+            className="hero-logo absolute top-0 -left-16 w-24 lg:w-96"
             loading="lazy"
           />
         </Link>

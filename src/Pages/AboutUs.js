@@ -3,7 +3,7 @@ import SmallLogoBanner from "../Components/SmallLogoBanner";
 import HeaderMain from "../Components/HeaderMain";
 import FooterMain from "../Components/FooterMain";
 
-function HomePage() {
+function AboutUs() {
   return (
     <div className="text-center bg-[#282c34] text-lg text-white flex flex-col min-h-[100vh]">
       {/* Header bar */}
@@ -13,7 +13,9 @@ function HomePage() {
         {/* Small Logo plus background */}
         <SmallLogoBanner />
         {/* Color break */}
-        <div className="w-full h-8 bg-red-400"></div>
+        <div className="w-full h-8 bg-red-400">
+          <div>About us</div>
+        </div>
         {/* Short bio (What games we play, what our servers are like, how our discord is like, how we enforce rules etc) */}
         <div>Show of force is cool!</div>
         <div>
@@ -69,4 +71,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default AboutUs;

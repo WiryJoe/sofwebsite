@@ -7,7 +7,7 @@ import CoreValuesBody from "../Components/CoreValuesBody";
 
 function HomePage() {
   return (
-    <div className="text-center bg-[#282c34] text-lg text-white flex flex-col min-h-[100vh] w-full">
+    <div className="text-center bg-[#2c2444] text-lg text-white flex flex-col min-h-[100vh] w-full">
       {/* Header bar */}
       <HeaderMain />
       {/* Main body of the page */}

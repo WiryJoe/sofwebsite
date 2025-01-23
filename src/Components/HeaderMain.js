@@ -4,7 +4,7 @@ import { faDiscord, faPatreon } from "@fortawesome/free-brands-svg-icons";
 
 const Banner = () => {
   return (
-    <header className="min-h-8 sticky top-0 flex flex-row z-20 bg-gradient-to-r from-[#b6a3e4] via-[#221B38] to-[#39365E]">
+    <header className="min-h-8 sticky top-0 flex flex-row z-20 bg-gradient-to-r from-[#221B38] to-[#49466e]">
       <div className="w-[20%] lg:w-[12%]">
         <Link to="/">
           <img

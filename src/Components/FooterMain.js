@@ -7,7 +7,7 @@ import {
 
 const Banner = () => {
   return (
-    <footer className="h-16 pt-4 sticky bottom-0 z-10 text-black bg-gradient-to-br from-[#221B38] from-10% to-[#b6a3e4] to-90%">
+    <footer className="h-16 pt-4 sticky bottom-0 z-10 text-black bg-gradient-to-tr from-[#221B38] from-25% to-[#443f8a] to-75%">
       <div className="grid grid-flow-col items-center justify-evenly text-gray-200 font-bold font-mono text-center w-full text-sm lg:text-2xl">
         <a
           href="https://discord.gg/showofforce"

@@ -8,7 +8,10 @@ const CoreValuesCard = ({ Title, Text }) => {
           {/* Left side of the card */}
           <div className="absolute inset-0 text-white flex items-center justify-center rounded-lg">
             {/* Left side content */}
-            <div className="p-4 z-10 absolute left-0 items-center justify-center w-[25%] h-full bg-gray-400 rounded-lg">
+            <div
+              className="p-4 z-10 absolute left-0 items-center justify-center w-[25%] h-full bg-gray-400 rounded-lg bg-cover bg-center"
+              style={{ backgroundImage: "url('/content/cove.png')" }}
+            >
               <h3 className="text-xl font-semibold">{Title}</h3>
               <p className="mt-2">Hello I am the placeholder text</p>
             </div>
@@ -20,6 +23,12 @@ const CoreValuesCard = ({ Title, Text }) => {
               <p>{Text}</p>
             </div>
           </div>
+          <img
+            className="absolute top-0 right-0 w-[25%] z-0 h-full bg-red-500 rounded-lg"
+            src="/content/cove.png"
+            alt="Show of Force gaming community logo"
+            loading="lazy"
+          ></img>
         </div>
       </div>
     </div>

@@ -3,6 +3,7 @@ import {
   faDiscord,
   faYoutube,
   faOpencart,
+  faPatreon,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Banner = () => {
@@ -18,6 +19,16 @@ const Banner = () => {
           <FontAwesomeIcon icon={faDiscord} />
           Discord
         </a>
+        <div className="bg-orange-500 rounded-lg hover:underline hover:decoration-solid hover:decoration-red-600 hover:scale-150 transition-all duration-500 ">
+          <a
+            href="https://www.patreon.com/showofforce"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FontAwesomeIcon icon={faPatreon} />
+            Support Us
+          </a>
+        </div>
         <a
           href="https://shop.showofforce.info/"
           target="_blank"

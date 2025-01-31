@@ -1,6 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import { faDiscord, faPatreon } from "@fortawesome/free-brands-svg-icons";
 
 const Banner = () => {
   return (
@@ -56,28 +54,6 @@ const Banner = () => {
         >
           Membership
         </Link>
-
-        <div className="bg-blue-500 rounded-lg hover:underline hover:decoration-solid hover:decoration-red-600 hover:scale-150 transition-all duration-500 ">
-          <a
-            href="https://discord.gg/showofforce"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon icon={faDiscord} />
-            Discord
-          </a>
-        </div>
-
-        <div className="bg-orange-500 rounded-lg hover:underline hover:decoration-solid hover:decoration-red-600 hover:scale-150 transition-all duration-500 ">
-          <a
-            href="https://www.patreon.com/showofforce"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon icon={faPatreon} />
-            Support Us
-          </a>
-        </div>
       </div>
     </header>
   );

@@ -4,6 +4,8 @@ import LogoPanel from "../Components/LogoPanel";
 import HeaderMain from "../Components/HeaderMain";
 import FooterMain from "../Components/FooterMain";
 import CoreValuesBody from "../Components/CoreValuesBody";
+import MiniStatsDisplay from "../Components/MiniStatsDisplay";
+import HomePageBottomInfo from "../Components/HomePageBottomInfo";
 
 function HomePage() {
   return (
@@ -23,23 +25,12 @@ function HomePage() {
         </Suspense>
 
         {/* Core values body */}
-        <div className="pt-4 pb-4">
+        <div>
           <CoreValuesBody />
         </div>
 
-        {/* Color break banner */}
-        <Suspense fallback={<div>Loading...</div>}>
-          <Banner height={25} />
-        </Suspense>
-
-        <div className="pt-12">
-          <p>Show of force stats</p>
-        </div>
-        <div className="grid grid-flow-col gap-48 h-48 py-12 align-middle justify-center">
-          <p>Discord users: a bunch</p>
-          <p>Patreon users: a bunch</p>
-          <p>Unique users: a bunch</p>
-        </div>
+        {/* Mini stats display */}
+        <MiniStatsDisplay />
 
         {/* Color break banner */}
         <Suspense fallback={<div>Loading...</div>}>
@@ -55,13 +46,8 @@ function HomePage() {
           />
         </div>
 
-        <div className="p-32 bg-slate-400">
-          Filler area "Join show of force or something"
-        </div>
-
-        <div className="p-32">Links to socials and other in site pages</div>
-
-        <div className="p-12 bg-red-400">Copyright 2025 Show of Force</div>
+        {/* Information at the bottom of the page */}
+        <HomePageBottomInfo />
       </div>
       {/* Footer at the bottom of the page0 */}
       <FooterMain />

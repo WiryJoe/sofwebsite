@@ -7,7 +7,8 @@ import FAQSection from "../Components/FAQSection";
 
 function AboutUs() {
   return (
-    <div className="text-center bg-[#2c2444] text-lg text-white flex flex-col min-h-[100vh]">
+    // bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%
+    <div className="text-center bg-[#1f1a31] text-lg text-white flex flex-col min-h-[100vh] bg-gradient-to-br from-[#1f1a31] from-30% via-[#3b3161] via-50% via-[#2c244e] via-80% to-[#2d254e] to-90%">
       {/* Header bar */}
       <HeaderMain />
       {/* Main body of the page */}
@@ -15,7 +16,7 @@ function AboutUs() {
         {/* Small Logo plus background */}
         <SmallLogoBanner />
         {/* Color break */}
-        <div className="w-full h-[10vh] bg-red-700 text-6xl font-semibold text-center py-2 justify-center align-middle items-center">
+        <div className="w-full h-[10vh] bg-[#ae1717] text-6xl font-semibold text-center py-6 justify-center align-middle items-center bg-gradient-to-r from-[#ae1717] to-[#6b0000]">
           About us
         </div>
         {/* Short bio (What games we play, what our servers are like, how our discord is like, how we enforce rules etc) */}

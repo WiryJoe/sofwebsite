@@ -10,7 +10,7 @@ const HomePageBottomInfo = () => {
           style={{ backgroundImage: "url('/content/cove.png')" }}
         >
           <div className="flex flex-col justify-center items-center align-middle gap-8">
-            <div className="bg-[#2c2444] h-32 w-full rounded-lg flex justify-center items-center align-middle text-5xl">
+            <div className="bg-[#2c2444] h-32 w-full rounded-lg flex justify-center items-center align-middle text-5xl font-semibold">
               Join show of force today!
             </div>
 
@@ -36,9 +36,7 @@ const HomePageBottomInfo = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="p-4 bg-gray-400 rounded-lg">
-          Copyright © 2025 Show of Force
+          <div className="pt-24">Copyright © 2025 Show of Force</div>
         </div>
       </div>
     </div>

@@ -1,6 +1,9 @@
 const SmallLogoBanner = () => {
   return (
-    <div className="bg-cover bg-center h-[10vh] lg:h-[25vh] bg-[url('http://static.boredpanda.com/blog/wp-content/uploads/2014/10/surprised-shocked-animals-funny-27__880.jpg')]">
+    <div
+      className="bg-cover bg-center h-[10vh] lg:h-[25vh]"
+      style={{ backgroundImage: "url('/content/cove.png')" }}
+    >
       <div className="flex justify-center items-center">
         <img
           src="/content/logo.png"

@@ -2,6 +2,9 @@ import React from "react";
 import SmallLogoBanner from "../Components/SmallLogoBanner";
 import HeaderMain from "../Components/HeaderMain";
 import FooterMain from "../Components/FooterMain";
+import Button from "../Components/Reusable/Button";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 
 function RulesAndGuidesPage() {
   return (
@@ -13,9 +16,7 @@ function RulesAndGuidesPage() {
         {/* Small Logo plus background */}
         <SmallLogoBanner />
         {/* Color break */}
-        <div className="w-full h-8 bg-red-400">
-          <div>Stats</div>
-        </div>
+        <div className="w-full h-8 bg-red-400">Hello</div>
       </div>
       {/* Footer at the bottom of the page0 */}
       <FooterMain />

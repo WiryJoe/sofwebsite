@@ -67,6 +67,11 @@ const Banner = () => {
               link: "/",
               id: "1",
             },
+            {
+              text: "Helloooooo",
+              link: "/",
+              id: "2",
+            },
           ]}
         />
       </div>

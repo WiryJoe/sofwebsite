@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Button from "../Components/Reusable/Button";
 
 const Banner = () => {
   return (
@@ -19,41 +20,42 @@ const Banner = () => {
           />
         </Link>
       </div>
+
       <div className="grid grid-flow-col items-center justify-evenly text-gray-200 font-bold font-mono text-center w-full h-16 text-sm lg:text-2xl">
-        <Link
-          to="/"
-          className="hover:underline hover:decoration-solid hover:decoration-red-600 hover:scale-150 transition-all duration-500"
-        >
-          Home page
-        </Link>
+        <Button text="Home Page" link="/" />
 
-        <Link
-          to="/AboutUs"
-          className="hover:underline hover:decoration-solid hover:decoration-red-600 hover:scale-150 transition-all duration-500"
-        >
-          About us
-        </Link>
+        <Button text="About Us" link="/ABoutUs" />
 
-        <Link
-          to="/StatsPage"
-          className="hover:underline hover:decoration-solid hover:decoration-red-600 hover:scale-150 transition-all duration-500"
-        >
-          Stats
-        </Link>
+        <Button text="Stats" link="/StatsPage" />
 
-        <Link
-          to="/RulesAndGuidesPage"
-          className="hover:underline hover:decoration-solid hover:decoration-red-600 hover:scale-150 transition-all duration-500"
-        >
-          Rules and Guides
-        </Link>
+        <Button
+          text="Rules and Guides"
+          isDropdown={true}
+          dropdownContents={[
+            {
+              text: "All Rules",
+              link: "/RulesAndGuidesPage",
+              id: "0",
+            },
+            {
+              text: "Server Rules",
+              link: "/RulesAndGuidesPage",
+              id: "1",
+            },
+            {
+              text: "Discord Rules",
+              link: "/RulesAndGuidesPage",
+              id: "2",
+            },
+            {
+              text: "Misc Rules",
+              link: "/RulesAndGuidesPage",
+              id: "3",
+            },
+          ]}
+        />
 
-        <Link
-          to="/MembershipPage"
-          className="hover:underline hover:decoration-solid hover:decoration-red-600 hover:scale-150 transition-all duration-500"
-        >
-          Membership
-        </Link>
+        <Button text="Membership" link="/MembershipPage" />
       </div>
     </header>
   );

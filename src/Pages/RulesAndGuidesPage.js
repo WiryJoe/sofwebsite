@@ -93,7 +93,7 @@ function RulesAndGuidesPage() {
               </div>
             ) : (
               <div
-                className="w-full flex flex-row gap-2 h-[10vh] my-12 bg-blue-600 justify-center items-center rounded-lg"
+                className="w-full flex flex-row gap-6 h-[10vh] my-12 bg-blue-600 justify-center items-center rounded-lg"
                 onClick={() => setRulesDisplay((prev) => !prev)}
               >
                 <div className="text-4xl font-semibold">Discord Rules</div>

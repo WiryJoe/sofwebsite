@@ -15,6 +15,10 @@ function App() {
         <Route path="AboutUs" element={<AboutUs />} />
         <Route path="StatsPage" element={<StatsPage />} />
         <Route path="RulesAndGuidesPage" element={<RulesAndGuidesPage />} />
+        <Route
+          path="/RulesAndGuidesPage/:section"
+          element={<RulesAndGuidesPage />}
+        />
         <Route path="MembershipPage" element={<MembershipPage />} />
       </Routes>
     </div>

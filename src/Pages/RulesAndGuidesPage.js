@@ -3,10 +3,15 @@ import SmallLogoBanner from "../Components/SmallLogoBanner";
 import HeaderMain from "../Components/HeaderMain";
 import FooterMain from "../Components/FooterMain";
 import RuleSection from "../Components/Reusable/RuleSection";
+
+import { useParams } from "react-router-dom";
 import { useState } from "react";
 
 function RulesAndGuidesPage() {
-  const [rulesDisplay, setRulesDisplay] = useState(true);
+  const { section } = useParams();
+  const [rulesDisplay, setRulesDisplay] = useState(section);
+
+  // console.log(renderSection(section));
 
   return (
     <div className="text-center bg-[#1f1a31] text-lg text-white flex flex-col min-h-[100vh] bg-gradient-to-bl from-[#1f1a31] from-30% via-[#3b3161] via-50% via-[#2c244e] via-80% to-[#2d254e] to-90%">
@@ -65,61 +70,30 @@ function RulesAndGuidesPage() {
           {/* Rules section */}
           <div className="w-[80vw] flex flex-col items-center">
             {/* Server rules section */}
-            {rulesDisplay === true ? (
+            <div
+              className={`w-full flex flex-row h-[10vh] my-12 justify-evenly items-center rounded-lg`}
+            >
               <div
-                className="w-full flex flex-row gap-6 h-[10vh] my-12 bg-red-600 justify-center items-center rounded-lg"
-                onClick={() => setRulesDisplay((prev) => !prev)}
+                className={`w-full h-full flex items-center justify-center text-4xl font-semibold bg-red-600 ${rulesDisplay === "server" && "h-[150%] rounded-lg"}`}
+                onClick={() => setRulesDisplay("server")}
               >
-                <div className="text-4xl font-semibold">Server Rules</div>
-                <div className="flex flex-col items-center group">
-                  <svg
-                    className={`h-10 w-10 transition-transform duration-300 transform bg-blue-600 group-hover:bg-blue-700 rounded-full ${rulesDisplay === true ? "rotate-180" : ""}`}
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="4"
-                      d="M5 15l7-7 7 7"
-                    ></path>
-                  </svg>
-                  <span className="text-sm group-hover:text-gray-300 group-hover:underline group-hover:decoration-blue-600">
-                    Click me
-                  </span>
-                </div>
+                Server Rules
               </div>
-            ) : (
               <div
-                className="w-full flex flex-row gap-6 h-[10vh] my-12 bg-blue-600 justify-center items-center rounded-lg"
-                onClick={() => setRulesDisplay((prev) => !prev)}
+                className={`w-full h-full flex items-center justify-center text-4xl font-semibold bg-blue-600 ${rulesDisplay === "discord" && "h-[150%] rounded-lg"}`}
+                onClick={() => setRulesDisplay("discord")}
               >
-                <div className="text-4xl font-semibold">Discord Rules</div>
-                <div className="flex flex-col items-center group">
-                  <svg
-                    className={`h-10 w-10 transition-transform duration-300 transform bg-red-600 group-hover:bg-red-700 rounded-full ${rulesDisplay === true ? "rotate-180" : ""}`}
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="4"
-                      d="M5 15l7-7 7 7"
-                    ></path>
-                  </svg>
-                  <span className="text-sm group-hover:text-gray-300 group-hover:underline group-hover:decoration-red-600">
-                    Click me
-                  </span>
-                </div>
+                Discord Rules
               </div>
-            )}
+              <div
+                className={`w-full h-full flex items-center justify-center text-4xl font-semibold bg-gray-600 ${rulesDisplay === "breaking" && "h-[150%] rounded-lg"}`}
+                onClick={() => setRulesDisplay("breaking")}
+              >
+                Rule Breaking
+              </div>
+            </div>
 
-            {rulesDisplay === true ? (
+            {rulesDisplay === "server" ? (
               <div>
                 {/* Rule 1 */}
                 <div className="w-full h-full flex flex-row items-start justify-evenly">

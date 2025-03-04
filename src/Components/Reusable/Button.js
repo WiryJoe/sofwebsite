@@ -127,7 +127,8 @@ const Button = ({
                 <li className="py-2 hover:bg-[#5d4c8f] transition-all duration-100">
                   <Link
                     className="py-5 px-10 whitespace-nowrap hover:underline hover:decoration-red-600 transition-all duration-500"
-                    to={dropdownEntry.link}
+                    to={`${dropdownEntry.link}/${dropdownEntry.id}`}
+                    key={dropdownEntry.id}
                   >
                     {dropdownEntry.text}
                   </Link>

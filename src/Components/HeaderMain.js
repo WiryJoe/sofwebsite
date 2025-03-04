@@ -35,27 +35,22 @@ const Banner = () => {
             {
               text: "All Rules",
               link: "/RulesAndGuidesPage",
-              id: "0",
+              id: "server",
             },
             {
               text: "Server Rules",
               link: "/RulesAndGuidesPage",
-              id: "1",
+              id: "server",
             },
             {
               text: "Discord Rules",
               link: "/RulesAndGuidesPage",
-              id: "2",
-            },
-            {
-              text: "Misc Rules",
-              link: "/RulesAndGuidesPage",
-              id: "3",
+              id: "discord",
             },
             {
               text: "Breaking Rules",
               link: "/RulesAndGuidesPage",
-              id: "4",
+              id: "breaking",
             },
           ]}
         />

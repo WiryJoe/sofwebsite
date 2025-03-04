@@ -51,29 +51,6 @@ const Banner = () => {
             rel: "noopener noreferrer",
           }}
         />
-        <Button
-          text="hello"
-          borderColor="bg-blue-500"
-          icon={faDiscord}
-          isDropdown={true}
-          dropdownContents={[
-            {
-              text: "Hello",
-              link: "/",
-              id: "0",
-            },
-            {
-              text: "World",
-              link: "/",
-              id: "1",
-            },
-            {
-              text: "Helloooooo",
-              link: "/",
-              id: "2",
-            },
-          ]}
-        />
       </div>
     </footer>
   );

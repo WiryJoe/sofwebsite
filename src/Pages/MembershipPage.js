@@ -32,7 +32,7 @@ function MembershipPage() {
 
             {/* Center content */}
             <div className="flex flex-col gap-4 justify-center items-center text-center">
-              <div className="mx-4 text-6xl font-semibold bg-red-600 rounded-lg h-[10vh] w-[30vw]">
+              <div className="mx-4 py-2 text-6xl font-semibold bg-red-600 rounded-lg h-[10vh] w-[30vw]">
                 Membership
               </div>
               <div className="mx-4 w-[40vw]">

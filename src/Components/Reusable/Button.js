@@ -124,7 +124,7 @@ const Button = ({
           <ul className="divide-y divide-gray-200 text-white">
             {dropdownContents.map(function (dropdownEntry) {
               return (
-                <li className="hover:bg-[#5d4c8f] transition-all duration-100">
+                <li className="py-2 hover:bg-[#5d4c8f] transition-all duration-100">
                   <Link
                     className="py-5 px-10 whitespace-nowrap hover:underline hover:decoration-red-600 transition-all duration-500"
                     to={dropdownEntry.link}

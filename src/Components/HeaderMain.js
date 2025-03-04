@@ -52,6 +52,11 @@ const Banner = () => {
               link: "/RulesAndGuidesPage",
               id: "3",
             },
+            {
+              text: "Breaking Rules",
+              link: "/RulesAndGuidesPage",
+              id: "4",
+            },
           ]}
         />
 

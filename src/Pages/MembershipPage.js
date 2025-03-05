@@ -1,7 +1,8 @@
-import React from "react";
+import { React, Suspense } from "react";
 import SmallLogoBanner from "../Components/SmallLogoBanner";
 import HeaderMain from "../Components/HeaderMain";
 import FooterMain from "../Components/FooterMain";
+import Banner from "../Components/Banner";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDiscord, faPatreon } from "@fortawesome/free-brands-svg-icons";
@@ -60,7 +61,7 @@ function MembershipPage() {
           {/* Middle section */}
           <div className="flex flex-row justify-center items-center w-full gap-48 py-12">
             <div className="flex flex-col gap-4 w-[40vw] px-24 py-12 border-solid border-4 border-red-800">
-              <div className="text-center text-4xl font-semibold">
+              <div className="text-center text-4xl font-semibold underline decoration-red-600">
                 Discord stuff
               </div>
               <div>
@@ -74,7 +75,7 @@ function MembershipPage() {
               </div>
             </div>
             <div className="flex flex-col gap-4 w-[40vw] px-24 py-12 border-solid border-4 border-red-800">
-              <div className="text-center text-4xl font-semibold">
+              <div className="text-center text-4xl font-semibold underline decoration-red-600">
                 Community stuff
               </div>
               <div>
@@ -88,6 +89,11 @@ function MembershipPage() {
               </div>
             </div>
           </div>
+
+          {/* Color break banner */}
+          <Suspense fallback={<div>Loading...</div>}>
+            <Banner height={25} padding="py-8" />
+          </Suspense>
 
           {/* Patreon section */}
           <div className="flex flex-col justify-center">
@@ -103,7 +109,7 @@ function MembershipPage() {
               </div>
 
               <div className="flex flex-col gap-4 justify-center items-center">
-                <div className="text-4xl font-semibold">
+                <div className="text-4xl font-bold underline decoration-red-600">
                   Support us with your choice of Patreon tier
                 </div>
                 <div className="w-[30vw]">

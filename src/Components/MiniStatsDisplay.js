@@ -7,7 +7,7 @@ const MiniStatsDisplay = () => {
       <div className="flex flex-row w-[75%] justify-center items-start">
         {/* Left side */}
         <div className="flex flex-col items-center w-1/2 gap-8">
-          <div className="text-white font-semibold text-5xl">
+          <div className="text-white font-bold mb-2 mx-16 underline decoration-red-600 text-5xl">
             Show of force stats
           </div>
           <img

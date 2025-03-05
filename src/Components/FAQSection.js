@@ -26,7 +26,7 @@ const FAQSection = () => {
 
   return (
     <div className="w-[60vw] mx-auto p-6">
-      <h2 className="text-3xl font-semibold text-center mb-8">
+      <h2 className="text-4xl font-bold mx-16 underline decoration-red-600 mb-8">
         Frequently Asked Questions
       </h2>
 

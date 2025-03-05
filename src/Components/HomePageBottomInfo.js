@@ -10,7 +10,7 @@ const HomePageBottomInfo = () => {
           style={{ backgroundImage: "url('/content/cove.png')" }}
         >
           <div className="flex flex-col justify-center items-center align-middle gap-8">
-            <div className="bg-[#2c2444] h-32 w-full rounded-lg flex justify-center items-center align-middle text-5xl font-semibold">
+            <div className="bg-[#2c2444] h-32 w-full rounded-lg flex justify-center items-center align-middle text-5xl font-semibold underline decoration-red-600">
               Join show of force today!
             </div>
 

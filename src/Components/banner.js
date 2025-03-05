@@ -7,7 +7,7 @@ const sections = [
   // Add more images if needed
 ];
 
-const Banner = ({ height }) => {
+const Banner = ({ height, padding, width }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
@@ -21,7 +21,9 @@ const Banner = ({ height }) => {
   }, []);
 
   return (
-    <div className="w-full overflow-hidden" style={{ height: `${height}vh` }}>
+    <div
+      className={`h-[${height}vh] ${padding ? padding : ""} ${width ? width : "w-full"}`}
+    >
       <img
         src={sections[currentImageIndex].image}
         alt={`Banner ${currentImageIndex + 1}`}

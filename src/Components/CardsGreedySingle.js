@@ -34,8 +34,8 @@ const CardsGreedySingle = () => {
             alt="Placeholder"
             loading="lazy"
           ></img>
-          <div className="grid grid-flow-row h-[1vh] group-focus:h-[30vh] w-[1vw] group-focus:w-[40vw]">
-            <div className="text-sm group-focus:text-3xl w-[1vw] group-focus:w-[40vw] h-[1vh] group-focus:h-[5vh]">
+          <div className="grid grid-flow-row h-[1vh] group-focus:h-[30vh] w-[1vw] group-focus:w-[40vw] group-focus:mb-8">
+            <div className="text-sm group-focus:text-3xl w-[1vw] group-focus:w-[40vw] h-[1vh] group-focus:h-[5vh] group-focus:mb-8 underline decoration-red-600">
               Show of force is cool!
             </div>
             <div className="text-center w-[1vw] group-focus:w-[40vw] h-[1vh] group-focus:h-[30vh] text-sm group-focus:text-xl overflow-hidden">

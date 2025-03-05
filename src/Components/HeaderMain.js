@@ -24,7 +24,7 @@ const Banner = () => {
       <div className="grid grid-flow-col items-center justify-evenly text-gray-200 font-bold font-mono text-center w-full h-16 text-sm lg:text-2xl">
         <Button text="Home Page" link="/" />
 
-        <Button text="About Us" link="/ABoutUs" />
+        <Button text="About Us" link="/AboutUs" />
 
         <Button text="Stats" link="/StatsPage" />
 

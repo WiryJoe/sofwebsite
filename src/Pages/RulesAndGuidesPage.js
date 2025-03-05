@@ -4,14 +4,16 @@ import HeaderMain from "../Components/HeaderMain";
 import FooterMain from "../Components/FooterMain";
 import RuleSection from "../Components/Reusable/RuleSection";
 
-import { useParams } from "react-router-dom";
-import { useState } from "react";
+import { useParams, Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 function RulesAndGuidesPage() {
   const { section } = useParams();
   const [rulesDisplay, setRulesDisplay] = useState(section);
 
-  // console.log(renderSection(section));
+  useEffect(() => {
+    setRulesDisplay(section);
+  }, [section]);
 
   return (
     <div className="text-center bg-[#1f1a31] text-lg text-white flex flex-col min-h-[100vh] bg-gradient-to-bl from-[#1f1a31] from-30% via-[#3b3161] via-50% via-[#2c244e] via-80% to-[#2d254e] to-90%">
@@ -73,24 +75,27 @@ function RulesAndGuidesPage() {
             <div
               className={`w-full flex flex-row h-[10vh] my-12 justify-evenly items-center rounded-lg`}
             >
-              <div
-                className={`w-full h-full flex items-center justify-center text-4xl font-semibold bg-red-600 ${rulesDisplay === "server" && "h-[150%] rounded-lg"}`}
+              <Link
+                className={`w-full flex items-center justify-center text-4xl font-semibold bg-red-600 ${rulesDisplay === "server" ? "h-[150%] rounded-lg" : "h-full"}`}
+                to="/RulesAndGuidesPage/server"
                 onClick={() => setRulesDisplay("server")}
               >
                 Server Rules
-              </div>
-              <div
-                className={`w-full h-full flex items-center justify-center text-4xl font-semibold bg-blue-600 ${rulesDisplay === "discord" && "h-[150%] rounded-lg"}`}
+              </Link>
+              <Link
+                className={`w-full flex items-center justify-center text-4xl font-semibold bg-blue-600 ${rulesDisplay === "discord" ? "h-[150%] rounded-lg" : "h-full"}`}
+                to="/RulesAndGuidesPage/discord"
                 onClick={() => setRulesDisplay("discord")}
               >
                 Discord Rules
-              </div>
-              <div
-                className={`w-full h-full flex items-center justify-center text-4xl font-semibold bg-gray-600 ${rulesDisplay === "breaking" && "h-[150%] rounded-lg"}`}
+              </Link>
+              <Link
+                className={`w-full flex items-center justify-center text-4xl font-semibold bg-gray-600 ${rulesDisplay === "breaking" ? "h-[150%] rounded-lg" : "h-full"}`}
+                to="/RulesAndGuidesPage/breaking"
                 onClick={() => setRulesDisplay("breaking")}
               >
                 Rule Breaking
-              </div>
+              </Link>
             </div>
 
             {rulesDisplay === "server" ? (

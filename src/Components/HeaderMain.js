@@ -29,7 +29,7 @@ const Banner = () => {
         <Button text="Stats" link="/StatsPage" />
 
         <Button
-          text="Rules and Guides"
+          text="Rules"
           isDropdown={true}
           dropdownContents={[
             {

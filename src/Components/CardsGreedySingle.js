@@ -7,12 +7,12 @@ const CardsGreedySingle = () => {
       tabindex="0"
     >
       {/* Top display section */}
-      <div className="w-[15vw] h-[20vh] bg-red-700 rounded-lg focus:w-[40vw] transition-all duration-300 group-focus:w-[25vw]">
+      <div className="w-[15vw] h-[20vh] bg-gray-500 rounded-lg focus:w-[40vw] group-focus:w-[25vw]">
         <div className="flex flex-col gap-2 h-full justify-center items-center text-center">
           <img
             src="/content/SquadLogo.png"
             alt="Squad game logo"
-            className="hero-logo w-24 lg:w-48 bg-red-700 rounded-lg"
+            className="hero-logo w-24 lg:w-48 bg-gray-500 rounded-lg"
             loading="lazy"
           />
           <div className="text-3xl">Squad</div>
@@ -23,11 +23,11 @@ const CardsGreedySingle = () => {
       </div>
 
       {/* Bottom content section */}
-      <div className="w-[15vw] h-[5vh] bg-gray-500 focus:w-[60vw] focus:h-[40vh] transition-all duration-300 group-focus:w-[60vw] group-focus:h-[40vh] rounded-lg justify-center align-middle items-center group-hover:scale-110 group-focus:group-hover:scale-100">
+      <div className="w-[15vw] h-[5vh] focus:w-[60vw] focus:h-[40vh] group-focus:w-[60vw] group-focus:h-[40vh] rounded-lg justify-center align-middle items-center group-hover:scale-110 group-focus:group-hover:scale-100 border border-solid border-red-600 bg-gradient-to-br from-[#1f1a31] from-30% via-[#3b3161] via-50% to-[#2d254e] to-90%">
         {/* Pre focus content */}
         <div className="h-0 opacity-100 group-focus:opacity-0">Content</div>
         {/* Inside of the card (Post focus) */}
-        <div className="m-16 flex gap-8 justify-center align-middle items-center h-[1vh] group-focus:h-[30vh] opacity-0 group-focus:opacity-100 transition-transform delay-1000">
+        <div className="m-16 flex gap-8 justify-center align-middle items-center h-[1vh] group-focus:h-[30vh] opacity-0 group-focus:opacity-100">
           <img
             className="w-[25%] h-full rounded-lg"
             src="/content/cove.png"

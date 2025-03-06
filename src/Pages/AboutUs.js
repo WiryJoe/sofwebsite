@@ -8,7 +8,6 @@ import Banner from "../Components/Banner";
 
 function AboutUs() {
   return (
-    // bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%
     <div className="text-center bg-[#1f1a31] text-lg text-white flex flex-col min-h-[100vh] bg-gradient-to-br from-[#1f1a31] from-30% via-[#3b3161] via-50% via-[#2c244e] via-80% to-[#2d254e] to-90%">
       {/* Header bar */}
       <HeaderMain />
@@ -108,51 +107,51 @@ function AboutUs() {
           Our admins
         </div>
         <div className="grid grid-flow-row grid-cols-4 grid-rows-1 gap-20">
-          <div className="flex flex-col justify-center align-middle items-center">
+          <div className="flex flex-col gap-1 justify-center align-middle items-center">
             <div className="w-32 h-32 rounded-full bg-center bg-cover bg-[url('http://static.boredpanda.com/blog/wp-content/uploads/2014/10/surprised-shocked-animals-funny-27__880.jpg')]"></div>
-            <div className="border border-solid border-red-500">
-              <p className="text-3xl">Their name</p>
-              <p className="w-[18vw]">
-                Short description of who they are and what they do Short
-                description of who they are and what they do Short description
-                of who they are and what they do
-              </p>
-            </div>
+            <p className="text-3xl underline underline-solid decoration-red-600">
+              Their name
+            </p>
+            <p className="w-[18vw] border-b-2 border-red-600">
+              Short description of who they are and what they do Short
+              description of who they are and what they do Short description of
+              who they are and what they do
+            </p>
           </div>
-          <div className="flex flex-col justify-center align-middle items-center">
+          <div className="flex flex-col gap-1 justify-center align-middle items-center">
             <div className="w-32 h-32 rounded-full bg-center bg-cover bg-[url('http://static.boredpanda.com/blog/wp-content/uploads/2014/10/surprised-shocked-animals-funny-27__880.jpg')]"></div>
-            <div className="border border-solid border-green-500">
-              <p className="text-3xl">Their name</p>
-              <p className="w-[18vw]">
-                Short description of who they are and what they do Short
-                description of who they are and what they do Short description
-                of who they are and what they do
-              </p>
-            </div>
-          </div>
-
-          <div className="flex flex-col justify-center align-middle items-center">
-            <div className="w-32 h-32 rounded-full bg-center bg-cover bg-[url('http://static.boredpanda.com/blog/wp-content/uploads/2014/10/surprised-shocked-animals-funny-27__880.jpg')]"></div>
-            <div className="border border-solid border-blue-500">
-              <p className="text-3xl">Their name</p>
-              <p className="w-[18vw]">
-                Short description of who they are and what they do Short
-                description of who they are and what they do Short description
-                of who they are and what they do
-              </p>
-            </div>
+            <p className="text-3xl underline underline-solid decoration-green-600">
+              Their name
+            </p>
+            <p className="w-[18vw] border-b-2 border-green-600">
+              Short description of who they are and what they do Short
+              description of who they are and what they do Short description of
+              who they are and what they do
+            </p>
           </div>
 
-          <div className="flex flex-col justify-center align-middle items-center">
+          <div className="flex flex-col gap-1 justify-center align-middle items-center">
             <div className="w-32 h-32 rounded-full bg-center bg-cover bg-[url('http://static.boredpanda.com/blog/wp-content/uploads/2014/10/surprised-shocked-animals-funny-27__880.jpg')]"></div>
-            <div className="border border-solid border-yellow-500">
-              <p className="text-3xl">Their name</p>
-              <p className="w-[18vw]">
-                Short description of who they are and what they do Short
-                description of who they are and what they do Short description
-                of who they are and what they do
-              </p>
-            </div>
+            <p className="text-3xl underline underline-solid decoration-blue-600">
+              Their name
+            </p>
+            <p className="w-[18vw] border-b-2 border-blue-600">
+              Short description of who they are and what they do Short
+              description of who they are and what they do Short description of
+              who they are and what they do
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-1 justify-center align-middle items-center">
+            <div className="w-32 h-32 rounded-full bg-center bg-cover bg-[url('http://static.boredpanda.com/blog/wp-content/uploads/2014/10/surprised-shocked-animals-funny-27__880.jpg')]"></div>
+            <p className="text-3xl underline underline-solid decoration-yellow-500">
+              Their name
+            </p>
+            <p className="w-[18vw] border-b-2 border-yellow-500">
+              Short description of who they are and what they do Short
+              description of who they are and what they do Short description of
+              who they are and what they do
+            </p>
           </div>
         </div>
 

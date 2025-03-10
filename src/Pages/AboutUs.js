@@ -18,7 +18,7 @@ function AboutUs() {
       {/* Main body */}
       <div className="flex flex-col items-center pt-12">
         {/* Title */}
-        <div className="mx-4 py-2 text-6xl font-semibold bg-red-600 rounded-lg h-[10vh] w-[30vw]">
+        <div className="mx-4 py-2 text-6xl font-semibold border-solid border-2 border-red-600 rounded-lg h-[10vh] w-[30vw]">
           About us
         </div>
 

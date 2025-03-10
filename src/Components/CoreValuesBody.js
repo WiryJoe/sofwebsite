@@ -5,7 +5,7 @@ const CoreValuesBody = () => {
     <div className="px-48 py-16">
       <div className="flex flex-col items-center">
         {/* Title */}
-        <div className="mx-4 py-2 text-6xl font-semibold bg-red-600 rounded-lg h-[10vh] w-[30vw]">
+        <div className="mx-4 py-2 text-6xl font-semibold border-solid border-2 border-red-600 rounded-lg h-[10vh] w-[30vw]">
           Our Core Values
         </div>
         <div className="grid gap-12 w-full pt-12">

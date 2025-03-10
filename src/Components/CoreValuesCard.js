@@ -14,10 +14,10 @@ const CoreValuesCard = ({ Title, Text, image }) => {
             ></img>
           )}
           {/* Text section */}
-          <div className="w-[50vw] z-0 h-full border-solid border-4 border-red-600 flex flex-col bg-gray-200 mx-auto p-8 text-white bg-gradient-to-br from-[#1f1a31] from-5% via-[#5c4aa7] via-30% to-[#2d254e] to-90% rounded-lg">
+          <div className="w-[50vw] z-0 h-full flex flex-col bg-gray-200 mx-auto p-8 text-white bg-gradient-to-br from-[#1f1a31] from-5% via-[#5c4aa7] via-30% to-[#2d254e] to-90% rounded-lg">
             {/* Text content */}
             <div
-              className={`flex ${image === "left" ? "justify-start pl-[9vw]" : "justify-end pr-[9vw]"} text-4xl font-semibold underline decoration-red-600`}
+              className={`flex justify-center text-4xl font-semibold underline decoration-red-600`}
             >
               {Title}
             </div>

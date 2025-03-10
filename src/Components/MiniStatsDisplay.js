@@ -18,7 +18,7 @@ const MiniStatsDisplay = () => {
           ></img>
         </div>
         {/* Right side */}
-        <div className="grid grid-flow-row gap-11 h-full justify-items-start w-1/2 border-4 border-red-700 text-3xl p-4">
+        <div className="grid grid-flow-row gap-11 h-full justify-items-start w-1/2 border-2 border-red-700 text-3xl p-4">
           <p>Discord users: a bunch</p>
           <p>Patreon users: a bunch</p>
           <p>Unique users: a bunch</p>
@@ -33,7 +33,7 @@ const MiniStatsDisplay = () => {
           <p>Important stats: A bunch</p>
           <p>Important stats: A bunch</p>
         </div>
-        <div className="bg-red-700 text-2xl text-center h-12 flex justify-center align-middle items-center rounded-lg hover:underline hover:decoration-solid hover:decoration-[#2c2444] hover:scale-150 transition-all duration-500">
+        <div className=" border-2 border-gray-500 text-2xl text-center h-12 flex justify-center align-middle items-center rounded-lg hover:underline hover:decoration-solid hover:decoration-red-600 hover:scale-150 transition-all duration-500">
           <Link to="/StatsPage" className="">
             See the full stats
           </Link>

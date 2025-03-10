@@ -31,7 +31,7 @@ function StatsPage() {
 
           {/* Center content */}
           <div className="flex flex-col gap-4 justify-center items-center text-center">
-            <div className="mx-4 py-2 text-6xl font-semibold bg-red-600 rounded-lg h-[10vh] w-[30vw]">
+            <div className="mx-4 py-2 text-6xl font-semibold border-solid border-2 border-red-600 rounded-lg h-[10vh] w-[30vw]">
               Player Stats
             </div>
             <div className="mx-4 w-[40vw]">

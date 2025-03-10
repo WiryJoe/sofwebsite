@@ -28,7 +28,7 @@ function RulesAndGuidesPage() {
         {/* Main body */}
         <div className="flex flex-col items-center pt-12">
           {/* Title */}
-          <div className="mx-4 py-2 text-6xl font-semibold bg-red-600 rounded-lg h-[10vh] w-[30vw]">
+          <div className="mx-4 py-2 text-6xl font-semibold border-solid border-2 border-red-600 rounded-lg h-[10vh] w-[30vw]">
             Rules
           </div>
 
@@ -76,21 +76,21 @@ function RulesAndGuidesPage() {
               className={`w-full flex flex-row h-[10vh] my-12 justify-evenly items-center rounded-lg`}
             >
               <Link
-                className={`w-full flex items-center justify-center text-4xl font-semibold bg-red-600 ${rulesDisplay === "server" ? "h-[150%] rounded-lg" : "h-full"}`}
+                className={`w-full flex items-center justify-center text-4xl font-semibold border-solid border-2 border-red-600 shadow-lg shadow-red-600/50 ${rulesDisplay === "server" ? "h-[150%] rounded-lg border-8 underline decoration-red-600" : "h-full border-2"}`}
                 to="/RulesAndGuidesPage/server"
                 onClick={() => setRulesDisplay("server")}
               >
                 Server Rules
               </Link>
               <Link
-                className={`w-full flex items-center justify-center text-4xl font-semibold bg-blue-600 ${rulesDisplay === "discord" ? "h-[150%] rounded-lg" : "h-full"}`}
+                className={`w-full flex items-center justify-center text-4xl font-semibold border-solid border-2 border-blue-600 shadow-lg shadow-blue-600/50 ${rulesDisplay === "discord" ? "h-[150%] rounded-lg border-8 underline decoration-blue-600" : "h-full border-2"}`}
                 to="/RulesAndGuidesPage/discord"
                 onClick={() => setRulesDisplay("discord")}
               >
                 Discord Rules
               </Link>
               <Link
-                className={`w-full flex items-center justify-center text-4xl font-semibold bg-gray-600 ${rulesDisplay === "breaking" ? "h-[150%] rounded-lg" : "h-full"}`}
+                className={`w-full flex items-center justify-center text-4xl font-semibold border-solid border-2 border-gray-600 shadow-lg shadow-gray-600/50 ${rulesDisplay === "breaking" ? "h-[150%] rounded-lg border-8 underline decoration-gray-600" : "h-full border-2"}`}
                 to="/RulesAndGuidesPage/breaking"
                 onClick={() => setRulesDisplay("breaking")}
               >
@@ -115,7 +115,7 @@ function RulesAndGuidesPage() {
                   {/* Rule 1 content */}
                   <div className="w-[70%] h-full flex flex-col">
                     {/* Title */}
-                    <div className="text-3xl flex h-12 font-bold mb-2 mx-16 bg-red-600 justify-center items-center rounded-lg">
+                    <div className="text-3xl flex h-12 font-bold mb-2 mx-16 border-solid border-4 border-red-600 justify-center items-center rounded-lg">
                       Rule 1 - Behavior And Conduct
                     </div>
 
@@ -179,7 +179,7 @@ function RulesAndGuidesPage() {
                   {/* Rule 2 content */}
                   <div className="w-[70%] h-full flex flex-col">
                     {/* Title */}
-                    <div className="text-3xl flex h-12 font-bold mb-2 mx-16 bg-red-600 justify-center items-center rounded-lg">
+                    <div className="text-3xl flex h-12 font-bold mb-2 mx-16 border-solid border-4 border-red-600 justify-center items-center rounded-lg">
                       Rule 2 - Fair Play
                     </div>
 
@@ -226,7 +226,7 @@ function RulesAndGuidesPage() {
                   {/* Rule 3 content */}
                   <div className="w-[70%] h-full flex flex-col">
                     {/* Title */}
-                    <div className="text-3xl flex h-12 font-bold mb-2 mx-16 bg-red-600 justify-center items-center rounded-lg">
+                    <div className="text-3xl flex h-12 font-bold mb-2 mx-16 border-solid border-4 border-red-600 justify-center items-center rounded-lg">
                       Rule 3 - Main Camping
                     </div>
 
@@ -277,7 +277,7 @@ function RulesAndGuidesPage() {
                   {/* Rule 4 content */}
                   <div className="w-[70%] h-full flex flex-col">
                     {/* Title */}
-                    <div className="text-3xl flex h-12 font-bold mb-2 mx-16 bg-red-600 justify-center items-center rounded-lg">
+                    <div className="text-3xl flex h-12 font-bold mb-2 mx-16 border-solid border-4 border-red-600 justify-center items-center rounded-lg">
                       Rule 4 - Vehicle Claiming Rules
                     </div>
 
@@ -318,7 +318,7 @@ function RulesAndGuidesPage() {
                   {/* Rule 5 content */}
                   <div className="w-[70%] h-full flex flex-col">
                     {/* Title */}
-                    <div className="text-3xl flex h-12 font-bold mb-2 mx-16 bg-red-600 justify-center items-center rounded-lg">
+                    <div className="text-3xl flex h-12 font-bold mb-2 mx-16 border-solid border-4 border-red-600 justify-center items-center rounded-lg">
                       Rule 5 - Squad Creation / Squad Lead Rules
                     </div>
 
@@ -373,7 +373,7 @@ function RulesAndGuidesPage() {
                     {/* Rule 1 content */}
                     <div className="w-full h-full flex flex-col">
                       {/* Title */}
-                      <div className="text-2xl flex h-12 font-bold mb-2 mx-16 bg-blue-600 justify-center items-center rounded-lg">
+                      <div className="text-2xl flex h-12 font-bold mb-2 mx-16 border-solid border-4 border-blue-600 justify-center items-center rounded-lg">
                         Rule 1 - Zero tolerance for harassment and toxicity
                       </div>
 
@@ -389,7 +389,7 @@ function RulesAndGuidesPage() {
                     {/* Rule 2 content */}
                     <div className="w-full h-full flex flex-col">
                       {/* Title */}
-                      <div className="text-2xl flex h-12 font-bold mb-2 mx-16 bg-blue-600 justify-center items-center rounded-lg">
+                      <div className="text-2xl flex h-12 font-bold mb-2 mx-16 border-solid border-4 border-blue-600 justify-center items-center rounded-lg">
                         Rule 2 - No acceptance of offensive, bothersome, or
                         spammy content
                       </div>
@@ -407,7 +407,7 @@ function RulesAndGuidesPage() {
                     {/* Rule 3 content */}
                     <div className="w-full h-full flex flex-col">
                       {/* Title */}
-                      <div className="text-2xl flex h-12 font-bold mb-2 mx-16 bg-blue-600 justify-center items-center rounded-lg">
+                      <div className="text-2xl flex h-12 font-bold mb-2 mx-16 border-solid border-4 border-blue-600 justify-center items-center rounded-lg">
                         Rule 3 - Strict prohibition of doxxing and recording
                         without consent
                       </div>
@@ -425,7 +425,7 @@ function RulesAndGuidesPage() {
                     {/* Rule 4 content */}
                     <div className="w-full h-full flex flex-col">
                       {/* Title */}
-                      <div className="text-2xl flex h-12 font-bold mb-2 mx-16 bg-blue-600 justify-center items-center rounded-lg">
+                      <div className="text-2xl flex h-12 font-bold mb-2 mx-16 border-solid border-4 border-blue-600 justify-center items-center rounded-lg">
                         Rule 4 - NSFW content is not allowed
                       </div>
 

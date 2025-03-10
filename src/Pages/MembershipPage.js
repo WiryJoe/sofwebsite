@@ -33,7 +33,7 @@ function MembershipPage() {
 
             {/* Center content */}
             <div className="flex flex-col gap-4 justify-center items-center text-center">
-              <div className="mx-4 py-2 text-6xl font-semibold bg-red-600 rounded-lg h-[10vh] w-[30vw]">
+              <div className="mx-4 py-2 text-6xl font-semibold border-solid border-2 border-red-600 rounded-lg h-[10vh] w-[30vw]">
                 Membership
               </div>
               <div className="mx-4 w-[40vw]">
@@ -60,7 +60,7 @@ function MembershipPage() {
 
           {/* Middle section */}
           <div className="flex flex-row justify-center items-center w-full gap-48 py-12">
-            <div className="flex flex-col gap-4 w-[40vw] px-24 py-12 border-solid border-4 border-red-800">
+            <div className="flex flex-col gap-4 w-[40vw] px-24 py-12">
               <div className="text-center text-4xl font-semibold underline decoration-red-600">
                 Discord stuff
               </div>
@@ -74,7 +74,7 @@ function MembershipPage() {
                 this, and we have cool rules, and we are cool and love you.
               </div>
             </div>
-            <div className="flex flex-col gap-4 w-[40vw] px-24 py-12 border-solid border-4 border-red-800">
+            <div className="flex flex-col gap-4 w-[40vw] px-24 py-12">
               <div className="text-center text-4xl font-semibold underline decoration-red-600">
                 Community stuff
               </div>

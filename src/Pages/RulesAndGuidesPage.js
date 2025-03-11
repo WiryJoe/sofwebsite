@@ -373,7 +373,7 @@ function RulesAndGuidesPage() {
                     {/* Rule 1 content */}
                     <div className="w-full h-full flex flex-col">
                       {/* Title */}
-                      <div className="text-2xl flex h-12 font-bold mb-2 mx-16 border-solid border-4 border-blue-600 justify-center items-center rounded-lg">
+                      <div className="text-2xl flex min-h-12 font-bold mb-2 mx-16 border-solid border-4 border-blue-600 justify-center items-center rounded-lg">
                         Rule 1 - Zero tolerance for harassment and toxicity
                       </div>
 
@@ -389,7 +389,7 @@ function RulesAndGuidesPage() {
                     {/* Rule 2 content */}
                     <div className="w-full h-full flex flex-col">
                       {/* Title */}
-                      <div className="text-2xl flex h-12 font-bold mb-2 mx-16 border-solid border-4 border-blue-600 justify-center items-center rounded-lg">
+                      <div className="text-2xl flex min-h-12 font-bold mb-2 mx-16 border-solid border-4 border-blue-600 justify-center items-center rounded-lg">
                         Rule 2 - No acceptance of offensive, bothersome, or
                         spammy content
                       </div>
@@ -407,7 +407,7 @@ function RulesAndGuidesPage() {
                     {/* Rule 3 content */}
                     <div className="w-full h-full flex flex-col">
                       {/* Title */}
-                      <div className="text-2xl flex h-12 font-bold mb-2 mx-16 border-solid border-4 border-blue-600 justify-center items-center rounded-lg">
+                      <div className="text-2xl flex min-h-12 font-bold mb-2 mx-16 border-solid border-4 border-blue-600 justify-center items-center rounded-lg">
                         Rule 3 - Strict prohibition of doxxing and recording
                         without consent
                       </div>
@@ -425,7 +425,7 @@ function RulesAndGuidesPage() {
                     {/* Rule 4 content */}
                     <div className="w-full h-full flex flex-col">
                       {/* Title */}
-                      <div className="text-2xl flex h-12 font-bold mb-2 mx-16 border-solid border-4 border-blue-600 justify-center items-center rounded-lg">
+                      <div className="text-2xl flex min-h-12 font-bold mb-2 mx-16 border-solid border-4 border-blue-600 justify-center items-center rounded-lg">
                         Rule 4 - NSFW content is not allowed
                       </div>
 

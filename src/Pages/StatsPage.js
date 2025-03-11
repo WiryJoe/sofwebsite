@@ -2,7 +2,7 @@ import React from "react";
 import SmallLogoBanner from "../Components/SmallLogoBanner";
 import HeaderMain from "../Components/HeaderMain";
 import FooterMain from "../Components/FooterMain";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 function StatsPage() {
   const [haveStats, setHaveStats] = useState(false);

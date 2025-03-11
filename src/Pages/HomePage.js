@@ -49,7 +49,7 @@ function HomePage() {
         {/* Information at the bottom of the page */}
         <HomePageBottomInfo />
       </div>
-      {/* Footer at the bottom of the page0 */}
+      {/* Footer at the bottom of the page */}
       <FooterMain />
     </div>
   );

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Button from "../Components/Reusable/Button";
 
 const CardsGreedySingle = () => {
   return (
@@ -34,8 +35,8 @@ const CardsGreedySingle = () => {
             alt="Placeholder"
             loading="lazy"
           ></img>
-          <div className="grid grid-flow-row h-[1vh] group-focus:h-[30vh] w-[1vw] group-focus:w-[40vw] group-focus:mb-8">
-            <div className="text-sm group-focus:text-3xl w-[1vw] group-focus:w-[40vw] h-[1vh] group-focus:h-[5vh] group-focus:mb-8 underline decoration-red-600">
+          <div className="grid grid-flow-row h-[1vh] group-focus:h-[35vh] w-[1vw] group-focus:w-[40vw] group-focus:mb-8">
+            <div className="text-sm group-focus:text-2xl w-[1vw] group-focus:w-[40vw] h-[1vh] group-focus:h-[5vh] group-focus:mb-2 underline decoration-red-600">
               Show of force is cool!
             </div>
             <div className="text-center w-[1vw] group-focus:w-[40vw] h-[1vh] group-focus:h-[30vh] text-sm group-focus:text-xl overflow-hidden">
@@ -46,13 +47,8 @@ const CardsGreedySingle = () => {
               and we are cool and love you. Show of force plays this game, this
               game, and this game. We have a discord that is like this, and we
               have cool rules, and we are cool and love you.
-              <p className="pt-4">
-                <Link
-                  to="/RulesAndGuidesPage"
-                  className="underline decoration-solid decoration-red-600"
-                >
-                  Find our rules here
-                </Link>
+              <p className="pt-2 underline decoration-solid decoration-red-600">
+                <Button text="Find our rules here" link="/RulesAndGuidesPage" />
               </p>
             </div>
           </div>

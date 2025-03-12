@@ -9,6 +9,7 @@ const MembershipTierCard = ({
   cost,
   paragraphs,
   bulletPoints,
+  borderColor,
 }) => {
   const [open, setOpen] = useState(false);
   const cardRef = useRef(null);
@@ -27,7 +28,7 @@ const MembershipTierCard = ({
     <div>
       <div
         ref={cardRef}
-        className={`${open ? "max-h-[200vh]" : "max-h-[80vh]"} min-h-[80vh] overflow-hidden relative border-solid border-4 border-white flex flex-col gap-2 w-[20vw]  mx-auto px-4 py-8 items-center text-center rounded-lg text-white bg-gradient-to-br from-[#1f1a31] from-10% via-[#5c4aa7] via-30% via-[#271f4d] via-80% to-[#2d254e] to-90% transition-all duration-500`}
+        className={`${open ? "max-h-[200vh]" : "max-h-[80vh]"} ${borderColor ? borderColor : "border-white"} min-h-[80vh] overflow-hidden relative border-solid border-4  flex flex-col gap-2 w-[20vw]  mx-auto px-4 py-8 items-center text-center rounded-lg text-white bg-gradient-to-br from-[#1f1a31] from-10% via-[#5c4aa7] via-30% via-[#271f4d] via-80% to-[#2d254e] to-90% transition-all duration-500`}
       >
         <span className="flex justify-center items-center text-center text-2xl font-semibold bg-gray-500 w-[90%] rounded-lg hover:underline hover:decoration-solid hover:decoration-red-600 hover:scale-125 transition-all duration-500">
           <a

@@ -45,6 +45,7 @@ const MembershipTierCardBody = () => {
           {/* Box 1 (Basic Whitelist) */}
           <MembershipTierCard
             title="Basic Whitelist"
+            borderColor="border-red-100"
             cost="$3"
             subtitle="Tier 0: Basic Whitelist"
             paragraphs={[
@@ -76,6 +77,7 @@ const MembershipTierCardBody = () => {
           {/* Box 2 (Enthusiast) */}
           <MembershipTierCard
             title="Enthusiast"
+            borderColor="border-red-300"
             cost="$5"
             subtitle="Tier 1: Enthusiast"
             paragraphs={[
@@ -112,6 +114,7 @@ const MembershipTierCardBody = () => {
           {/* Box 3 (Elite Player) */}
           <MembershipTierCard
             title="Elite Player"
+            borderColor="border-red-400"
             cost="$10"
             subtitle="Tier 2: Elite Player"
             paragraphs={[
@@ -158,6 +161,7 @@ const MembershipTierCardBody = () => {
           {/* Box 4 (Master Strategist) */}
           <MembershipTierCard
             title="Master Strategist"
+            borderColor="border-red-500"
             cost="$15"
             subtitle="Tier 3: Master Strategist"
             paragraphs={[
@@ -214,6 +218,7 @@ const MembershipTierCardBody = () => {
           {/* Box 5 (Mega Supporter) */}
           <MembershipTierCard
             title="Mega Supporter"
+            borderColor="border-red-700"
             cost="$20"
             subtitle="Tier 4: Early Supporter"
             paragraphs={[

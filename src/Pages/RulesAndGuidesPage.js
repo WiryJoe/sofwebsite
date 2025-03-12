@@ -46,26 +46,10 @@ function RulesAndGuidesPage() {
 
             {/* Right text */}
             <div className="flex flex-col gap-4 mx-4 w-[40vw]">
-              <p>
-                Show of force plays this game, this game, and this game. We have
-                a discord that is like this, and we have cool rules, and we are
-                cool and love you.
-              </p>
-              <p>
-                Show of force plays this game, this game, and this game. We have
-                a discord that is like this, and we have cool rules, and we are
-                cool and love you.
-              </p>
-              <p>
-                Show of force plays this game, this game, and this game. We have
-                a discord that is like this, and we have cool rules, and we are
-                cool and love you.
-              </p>
-              <p>
-                Show of force plays this game, this game, and this game. We have
-                a discord that is like this, and we have cool rules, and we are
-                cool and love you.
-              </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
           </div>
 

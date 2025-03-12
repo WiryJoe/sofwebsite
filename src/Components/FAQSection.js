@@ -11,16 +11,16 @@ const FAQSection = () => {
 
   const faqs = [
     {
-      question: "How cool is Show of force?",
-      answer: "Very.",
+      question: "Question 1",
+      answer: "Answer 1",
     },
     {
-      question: "What does show of force do?",
-      answer: "We fuck. Hard.",
+      question: "Question 2",
+      answer: "Answer 2",
     },
     {
-      question: "How can I join?",
-      answer: "Join our discord.",
+      question: "Question 3",
+      answer: "Answer 2",
     },
   ];
 

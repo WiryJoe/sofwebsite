@@ -11,7 +11,7 @@ const CoreValuesBody = () => {
         <div className="grid gap-12 w-full pt-12">
           <CoreValuesCard
             image="left"
-            Title={"We're cool"}
+            Title={"Placeholder text"}
             Text={
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             }
@@ -19,7 +19,7 @@ const CoreValuesBody = () => {
           {/* Card 2 */}
           <CoreValuesCard
             image="right"
-            Title={"We're chill"}
+            Title={"Placeholder text"}
             Text={
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             }
@@ -28,7 +28,7 @@ const CoreValuesBody = () => {
           {/* Card 3 */}
           <CoreValuesCard
             image="left"
-            Title={"We're freaky!"}
+            Title={"Placeholder text"}
             Text={
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
             }

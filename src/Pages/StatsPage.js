@@ -5,7 +5,7 @@ import FooterMain from "../Components/FooterMain";
 import { useState } from "react";
 
 function StatsPage() {
-  const [haveStats, setHaveStats] = useState(false);
+  const [haveStats] = useState(false);
 
   return (
     <div className="text-center bg-[#1f1a31] text-lg text-white flex flex-col bg-gradient-to-br from-[#1f1a31] from-30% via-[#3b3161] via-50% via-[#2c244e] via-80% to-[#2d254e] to-90%">

@@ -332,7 +332,7 @@ function RulesAndGuidesPage() {
                 </div>
                 {/* End of section */}
               </div>
-            ) : (
+            ) : rulesDisplay === "discord" ? (
               <div>
                 <div className="pb-12">
                   These rules pertain to the social interactions within our
@@ -424,6 +424,155 @@ function RulesAndGuidesPage() {
                         </p>
                       </div>
                     </div>
+                  </div>
+                </div>
+                {/* End of section */}
+              </div>
+            ) : (
+              <div>
+                <div className="pb-12">
+                  This section pertains to the consequences for breaking rules
+                  or attempting to bypass them. These are the default baseline
+                  punishments, mitigating or exacerbating circumstances may
+                  modify the application of these punishments.
+                </div>
+                {/* Rule 1 */}
+                <div className="w-full h-full flex flex-row items-start justify-evenly">
+                  {/* Image */}
+                  <div className="w-[30%]">
+                    <img
+                      className="w-full h-auto rounded-lg"
+                      src="/content/cove.png"
+                      alt="Placeholder"
+                      loading="lazy"
+                    />
+                  </div>
+
+                  {/* Rule 1 content */}
+                  <div className="w-[70%] h-full flex flex-col">
+                    {/* Title */}
+                    <div className="text-3xl flex h-12 font-bold mb-2 mx-16 border-solid border-4 border-gray-600 justify-center items-center rounded-lg">
+                      Section 1 - Server and Discord conduct
+                    </div>
+
+                    {/* Text description */}
+                    <div className="w-full px-16 pb-16 justify-center">
+                      <p>
+                        Breaking the rules will result in these punishments.
+                      </p>
+                    </div>
+
+                    <RuleSection
+                      Title="Offense 1"
+                      Text="Punishment x"
+                      underlineColor="decoration-gray-400"
+                    />
+
+                    <RuleSection
+                      Title="Offense 2"
+                      Text="Punishment x"
+                      underlineColor="decoration-gray-400"
+                    />
+
+                    <RuleSection
+                      Title="Offense 3"
+                      Text="Punishment x"
+                      underlineColor="decoration-gray-400"
+                    />
+                  </div>
+                </div>
+                {/* End of section */}
+
+                {/* Rule 2 */}
+                <div className="w-full h-full pt-12 flex flex-row items-start justify-evenly">
+                  {/* Image */}
+                  <div className="w-[30%]">
+                    <img
+                      className="w-full h-auto rounded-lg"
+                      src="/content/cove.png"
+                      alt="Placeholder"
+                      loading="lazy"
+                    />
+                  </div>
+
+                  {/* Rule 2 content */}
+                  <div className="w-[70%] h-full flex flex-col">
+                    {/* Title */}
+                    <div className="text-3xl flex h-12 font-bold mb-2 mx-16 border-solid border-4 border-gray-600 justify-center items-center rounded-lg">
+                      Section 2 - Gameplay and fairness
+                    </div>
+
+                    {/* Text description */}
+                    <div className="w-full px-16 pb-16 justify-center">
+                      <p>
+                        Breaking the rules will result in these punishments.
+                      </p>
+                    </div>
+
+                    <RuleSection
+                      Title="Offense 1"
+                      Text="Punishment x"
+                      underlineColor="decoration-gray-400"
+                    />
+
+                    <RuleSection
+                      Title="Offense 2"
+                      Text="Punishment x"
+                      underlineColor="decoration-gray-400"
+                    />
+
+                    <RuleSection
+                      Title="Offense 3"
+                      Text="Punishment x"
+                      underlineColor="decoration-gray-400"
+                    />
+                  </div>
+                </div>
+                {/* End of section */}
+
+                {/* Rule 3 */}
+                <div className="w-full h-full pt-12 flex flex-row items-start justify-evenly">
+                  {/* Image */}
+                  <div className="w-[30%]">
+                    <img
+                      className="w-full h-auto rounded-lg"
+                      src="/content/cove.png"
+                      alt="Placeholder"
+                      loading="lazy"
+                    />
+                  </div>
+
+                  {/* Rule 3 content */}
+                  <div className="w-[70%] h-full flex flex-col">
+                    {/* Title */}
+                    <div className="text-3xl flex h-12 font-bold mb-2 mx-16 border-solid border-4 border-gray-600 justify-center items-center rounded-lg">
+                      Section 3 - Kicks, bans, and appeals
+                    </div>
+
+                    {/* Text description */}
+                    <div className="w-full px-16 pb-16 justify-center">
+                      <p>
+                        Breaking the rules will result in these punishments.
+                      </p>
+                    </div>
+
+                    <RuleSection
+                      Title="Offense 1"
+                      Text="Punishment x"
+                      underlineColor="decoration-gray-400"
+                    />
+
+                    <RuleSection
+                      Title="Offense 2"
+                      Text="Punishment x"
+                      underlineColor="decoration-gray-400"
+                    />
+
+                    <RuleSection
+                      Title="Offense 3"
+                      Text="Punishment x"
+                      underlineColor="decoration-gray-400"
+                    />
                   </div>
                 </div>
                 {/* End of section */}

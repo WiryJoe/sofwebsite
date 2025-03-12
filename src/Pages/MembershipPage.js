@@ -1,4 +1,4 @@
-import { React, Suspense, useRef } from "react";
+import { React, Suspense } from "react";
 import SmallLogoBanner from "../Components/SmallLogoBanner";
 import HeaderMain from "../Components/HeaderMain";
 import FooterMain from "../Components/FooterMain";
